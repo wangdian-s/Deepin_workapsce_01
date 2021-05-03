@@ -1,0 +1,11 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8751/eureka/
+  instance:
+    hostname: ANGLESHOP
+spring:
+  application:
+    name: client1
+#server:
+#  port: 8762
